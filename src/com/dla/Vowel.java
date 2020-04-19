@@ -8,7 +8,7 @@ import java.util.*; // for using Scanner class
  */
 public class Vowel {
 
-	// progarm to find the total number of vowel in string
+	// program to find the total number of vowel in string
 
 	public static void main(String[] args) {
 
