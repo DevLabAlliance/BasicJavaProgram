@@ -30,4 +30,4 @@ public class MultiplicationOfTwoMatrix {
 			System.out.println(); // to print in next line
 		}
 	}
-}
+} 
