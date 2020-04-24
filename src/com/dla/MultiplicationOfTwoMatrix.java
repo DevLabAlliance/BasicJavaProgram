@@ -8,7 +8,7 @@ public class MultiplicationOfTwoMatrix {
 
 	// program to multiply two matrix
 
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 
 		int dla[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 		int dla1[][] = { { 9, 8, 7 }, { 6, 5, 4 }, { 3, 2, 1 } };
