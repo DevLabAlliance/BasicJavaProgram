@@ -12,7 +12,7 @@ public class Lcm {
 		/*
 		 * program to find the LCM
 		 *
-		 * LCm is number from which both the number are divisible
+		 * LCm is number by which both the number are divisible
 		 *
 		 */
 		System.out.println("Enter two number");

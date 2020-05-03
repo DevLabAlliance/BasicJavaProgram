@@ -24,7 +24,7 @@ public class GreatestCommonDivisor {
 
 	public static void gcd(int dla, int dla1) {
 		int result = 0;
-		for (int i = 1; i <= dla && i <= dla1; i++) { // if i is divisble both by both number then it is their GCD
+		for (int i = 1; i <= dla && i <= dla1; i++) { // if i is divisible both by both number then it is their GCD
 
 			if (dla % i == 0 && dla1 % i == 0)
 				result = i; // modifying the result

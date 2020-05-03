@@ -8,8 +8,8 @@ import java.util.*;
  */
 public class Armstrong {
 	/**
-	 * program to check whether a number is Armstrong or not 
-	 * armstrong number are those whose sum of cube of individual digit is equal to the number
+	 * program to check whether a number is Armstrong or not ;Armstrong number are
+	 * those whose sum of cube of individual digit is equal to the number
 	 * 
 	 * 371 = 3^3 + 7^3 + 1^3
 	 */
@@ -18,6 +18,8 @@ public class Armstrong {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int dla = s.nextInt();
+
+		// calling method
 		check(dla);
 		s.close();
 	}

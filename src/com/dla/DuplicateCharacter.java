@@ -23,8 +23,12 @@ public class DuplicateCharacter {
 		Scanner s = new Scanner(System.in);
 		String dla = s.nextLine(); // taking string as input from user
 		s.close();
-		dla = dla.toLowerCase(); // converting all character to lower case to compare
-		for (int i = 0; i < dla.length(); i++) { // using loop to iterate every character in string
+		
+		// converting all character to lower case to compare
+		dla = dla.toLowerCase(); 
+		
+		// using loops to iterate every character in string
+		for (int i = 0; i < dla.length(); i++) { 
 			for (int j = i + 1; j < dla.length(); j++) {
 
 				if (dla.charAt(i) == dla.charAt(j)) { // checking character

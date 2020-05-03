@@ -8,7 +8,7 @@ import java.util.*; // to use Scanner class
  */
 public class CheckNumber {
 
-	// program to check whether it is negative, zero, or positive
+	// program to check whether number is negative, zero, or positive
 
 	public static void main(String[] args) {
 
@@ -22,7 +22,8 @@ public class CheckNumber {
 
 	public static void check(int dla) {
 
-		if (dla > 0) // checking the number for different conditions and displaying result
+		// checking the number for different conditions and displaying result
+		if (dla > 0)
 			System.out.println("Numner is positive");
 		else if (dla == 0)
 			System.out.println("Number is zero");

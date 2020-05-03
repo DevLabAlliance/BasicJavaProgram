@@ -3,7 +3,7 @@ package com.dla;
 import java.util.*;
 
 /**
- * @author Devlabs Alliance 
+ * @author Devlabs Alliance
  *
  */
 public class FirstNonRepeatedCharacter {
@@ -34,7 +34,7 @@ public class FirstNonRepeatedCharacter {
 			if (flag == 0) // displaying result
 			{
 				System.out.println("First Non repeated character is " + c[i] + "index is " + i);
-				break; // breaking the loop
+				break; // breaking the loop if first non repeated character found
 			}
 
 		}

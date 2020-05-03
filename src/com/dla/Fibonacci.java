@@ -34,11 +34,11 @@ public class Fibonacci {
 		n = s.nextInt(); // taking input for number of terms
 		
          s.close();
-		System.out.print(first_number + " " + second_number + " "); // diplaying first and second number of series
+		System.out.print(first_number + " " + second_number + " "); // displaying first and second number of series
 
 		for (int i = 0; i < n; i++) { // using loop for iteration
 			dla = first_number + second_number;
-			System.out.print(dla + " "); // diaplaying result
+			System.out.print(dla + " "); // displaying result
 			first_number = second_number;
 			second_number = dla;
 		}
