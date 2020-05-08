@@ -27,7 +27,7 @@ public class PascalTriangle {
 				System.out.print(" ");
 			}
 
-			for (int r = 0; r <= n; r++) { // iterating in columnn and printing  factorial
+			for (int r = 0; r <= n; r++) { // iterating in column and printing  factorial
 				System.out.print((factorial(n) / (factorial(n - r) * factorial(r))) + " ");
 			}
 			System.out.println();
@@ -43,7 +43,7 @@ public class PascalTriangle {
 		System.out.print("Enter number of rows: ");
 		Scanner s = new Scanner(System.in);
 		int dla = s.nextInt();
-
+        s.close();
 		display(dla);
 	}
 

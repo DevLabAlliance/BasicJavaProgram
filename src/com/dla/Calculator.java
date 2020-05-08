@@ -22,7 +22,7 @@ public class Calculator {
 				System.out.println("Enter two number to add");
 				int a = s.nextInt();
 				int b = s.nextInt();
-				System.out.printf("Result of addition is %d\n\n\n", a + b);
+				System.out.println("Result of addition is %d\n\n\n"+(a + b));
 				System.out.println(
 						"---------MENU----------\n1 :- Addition\n2 :- Subtraction\n3 :- Multiplication\n4 :-Division");
 				dla = s.nextInt();
@@ -34,7 +34,7 @@ public class Calculator {
 				System.out.println("Enter two number to subtract");
 				int a = s.nextInt();
 				int b = s.nextInt();
-				System.out.printf("Result of subtraction is %d\n\n\n", a - b);
+				System.out.println("Result of subtraction is %d\n\n\n"+(a - b));
 				System.out.println(
 						"---------MENU----------\n1 :- Addition\n2 :- Subtraction\n3 :- Multiplication\n4 :-Division");
 				dla = s.nextInt();
@@ -45,7 +45,7 @@ public class Calculator {
 				System.out.println("Enter two number to multiply");
 				int a = s.nextInt();
 				int b = s.nextInt();
-				System.out.printf("Result of multiplication is %d", a * b);
+				System.out.println("Result of multiplication is %d"+(a * b));
 				System.out.println(
 						"---------MENU----------\n1 :- Addition\n2 :- Subtraction\n3 :- Multiplication\n4 :-Division");
 				dla = s.nextInt();
@@ -88,5 +88,6 @@ public class Calculator {
 				break;
 			}
 		}
+		s.close();
 	}
 }
