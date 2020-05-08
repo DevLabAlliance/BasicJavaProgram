@@ -6,27 +6,34 @@ package com.dla;
  */
 
 /*
+ * 
  * program to find if any sub-array exists such that its sum is equal to zero
  * like in the array in the program from index 1 to index 3 the sum of element
- * is zero
- */public class SubArraySumZero {
+ * is zero Time complexity of this program will be O(n^2) As we iterate through
+ * two loops
+ */
+
+public class SubArraySumZero {
 
 	public static void main(String[] args) {
 
 		int dla[] = { 2, 4, 6, -10, 3, 4 };
 		check(dla);
-
 	}
 
 	/**
+	 * 
 	 * @param dla is the input array
+	 *
 	 */
+
 	public static void check(int dla[]) {
 		int i = 0, j = 0;
 
 		// to check whether the sub array is found or not
 		boolean result = false;
 
+		// iterating every element is the array
 		for (i = 0; i < dla.length; i++) {
 			int sum = 0; // to store sum
 			for (j = i; j < dla.length; j++) {
@@ -47,7 +54,7 @@ package com.dla;
 
 		// displaying the result
 		if (result) {
-			System.out.printf("Form index %d to index %d there exists a sub array", i, j);
+			System.out.println("From index "+i+" to index "+j+" there exists a sub array");
 		} else {
 			System.out.println("No sub array exists");
 		}

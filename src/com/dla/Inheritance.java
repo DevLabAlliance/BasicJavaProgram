@@ -33,7 +33,6 @@ class Dog extends Animal {
 class BabyDog extends Dog {
 
 	// overriding method
-	@Override
 	void bark() {
 		System.out.println("babydog...");
 	}

@@ -22,7 +22,7 @@ public class LinearSearch {
 		for (int i = 0; i < dla.length; i++) {
 			if (key == dla[i]) { // checking the key with every element in the array
 
-				System.out.printf("key found at  %dth place", i + 1);
+				System.out.println("key found at  %dth place"+ (i + 1));
 				break; // if key is found then break the loop
 			}
 		}
